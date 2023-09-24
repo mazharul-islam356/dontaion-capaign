@@ -3,6 +3,7 @@ import MainLayout from '../MainLayout/MainLayout';
 import Home from '../Pages/Home/Home';
 import Donation from '../Pages/Donation/Donation';
 import Satistics from '../Pages/Satistics/Satistics';
+import Details from '../Pages/Details/Details';
 
 const Route = createBrowserRouter([
 
@@ -22,6 +23,11 @@ const Route = createBrowserRouter([
             {
                 path:'/statistics',
                 element: <Satistics></Satistics>
+            },
+            {
+                path:'/details/:id',
+                element:<Details></Details>,
+                loader: ()=> fetch('/detailsData.json')
             }
         
 

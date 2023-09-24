@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "category_name": "Health",
+      "title": "Health is wealth, so take care of it",
+      "price": 19.99,
+      "description": "A healthy snack that's perfect on the go.",
+      "image":"https://i.ibb.co/crTkxY6/Rectangle-4284.png",
+      "cardColor": "#d9e5ff",
+      "categoryColor": "#aec7ff",
+      "textColor": "#0052ff"
+    },
+    {
+      "id": 2,
+      "category_name": "Education",
+      "title": "Education is the key to success",
+      "price": 39.99,
+      "description": "A comprehensive online course on Python programming.",
+      "image": "https://i.ibb.co/SJS4q97/Rectangle-4288.png",
+      "cardColor": "#ffe3e4",
+      "categoryColor": "#ffc4c5",
+      "textColor": "#ff444a"
+    },
+    {
+      "id": 3,
+      "category_name": "Clothing",
+      "title": "Clothing protects us from the elements",
+      "price": 49.99,
+      "description": "A stylish and comfortable pair of jeans that's perfect for any occasion.",
+      "image": "https://i.ibb.co/B2VkB0r/Rectangle-4287.png",
+      "cardColor": "#ebf6e2",
+      "categoryColor": "#d4ecc2",
+      "textColor": "#79c23f"
+    },
+    {
+      "id": 4,
+      "category_name": "Food",
+      "title": "Food is essential for survival",
+      "price": 9.99,
+      "description": "A delicious and nutritious meal that's ready in minutes.",
+      "image": "https://i.ibb.co/YRNStF6/Rectangle-4287-2.png",
+      "cardColor": "#feeae4",
+      "categoryColor": "#fdd2c4",
+      "textColor": "#f87147"
+    },
+    {
+      "id": 5,
+      "category_name": "Food",
+      "title": "Food is essential for survival",
+      "price": 9.99,
+      "description": " A box of organic fruits and vegetables that's delivered to your door every week.",
+      "image": "https://i.ibb.co/YRNStF6/Rectangle-4287-2.png",
+      "cardColor": "#feeae4",
+      "categoryColor": "#fdd2c4",
+      "textColor": "#f87147"
+    },
+    {
+      "id": 6,
+      "category_name": "Clothing",
+      "title": "Clothing protects us from the elements",
+      "price": 49.99,
+      "description": "A warm and stylish winter coat that's perfect for the cold weather.",
+      "image": "https://i.ibb.co/B2VkB0r/Rectangle-4287.png",
+      "cardColor": "#ebf6e2",
+      "categoryColor": "#d4ecc2",
+      "textColor": "#79c23f"
+    },
+    {
+      "id": 7,
+      "category_name": "Education",
+      "title": "Education is the key to success",
+      "price": 39.99,
+      "description": " A bundle of online courses on web development, including HTML, CSS, and JavaScript.",
+      "image": "https://i.ibb.co/SJS4q97/Rectangle-4288.png",
+      "cardColor": "#ffe3e4",
+      "categoryColor": "#ffc4c5",
+      "textColor": "#ff444a"
+    },
+    {
+      "id": 8,
+      "category_name": "Health",
+      "title": "Health is wealth, so take care of it",
+      "price": 19.99,
+      "description": "A fitness tracker that helps you stay on track with your fitness goals.",
+      "image": "https://i.ibb.co/crTkxY6/Rectangle-4284.png",
+      "cardColor": "#d9e5ff",
+      "categoryColor": "#aec7ff",
+      "textColor": "#0052ff"
+    },
+    {
+      "id": 9,
+      "category_name": "Health",
+      "title": "Health is wealth, so take care of it",
+      "price": 39.99,
+      "description": "A subscription to a meal delivery service that provides healthy and convenient meals right to your door.",
+      "image": "https://i.ibb.co/crTkxY6/Rectangle-4284.png",
+      "cardColor": "#d9e5ff",
+      "categoryColor": "#aec7ff",
+      "textColor": "#0052ff"
+    },
+    {
+      "id": 10,
+      "category_name": "Education",
+      "title": "Education is the key to success",
+      "price": 99.99,
+      "description": "A private tutoring session with a qualified teacher in the subject of your choice.",
+      "image": "https://i.ibb.co/SJS4q97/Rectangle-4288.png",
+      "cardColor": "#ffe3e4",
+      "categoryColor": "#ffc4c5",
+      "textColor": "#ff444a"
+    },
+    {
+      "id": 11,
+      "category_name": "Clothing",
+      "title": "Clothing protects us from the elements",
+      "price": 129.99,
+      "description": "A designer handbag that's sure to turn heads.",
+      "image": "https://i.ibb.co/B2VkB0r/Rectangle-4287.png",
+      "cardColor": "#ebf6e2",
+      "categoryColor": "#d4ecc2",
+      "textColor": "#79c23f"
+    },
+    {
+      "id": 12,
+      "category_name": "Food",
+      "title": "Food is essential for survival",
+      "price": 199.99,
+      "description": "A gourmet dinner for two at a Michelin-starred",
+      "image": "https://i.ibb.co/YRNStF6/Rectangle-4287-2.png",
+      "cardColor": "#feeae4",
+      "categoryColor": "#fdd2c4",
+      "textColor": "#f87147"
+    }
+  ]
+  
