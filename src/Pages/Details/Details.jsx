@@ -14,12 +14,12 @@ const Details = () => {
   }, [id, cardData]);
  
 
-  const {category_name,title,image,cardColor,categoryColor,textColor,description,price} = cardData || {}
+  const {title,image,textColor,description,price} = cardData || {}
 
 
   return (
     <div>
-      <div style={{ backgroundImage: `url(${image})`,objectFit:`cover`,backgroundSize:`cover` }} className="mt-5 w-11/12 mx-auto h-[500px] bg-slate-300 border border-base-300">
+      <div style={{ backgroundImage: `url(${image})`,backgroundSize:`cover`,backgroundRepeat:`no-repeat`,backgroundPosition:`center` }} className="mt-5 w-11/12 mx-auto h-[500px] bg-slate-300 rounded-md border border-base-300">
 
         <button style={{backgroundColor:`${textColor}`}} className="btn border-0 text-white mt-[430px] ml-12">Donate ${price}</button>
       </div>
