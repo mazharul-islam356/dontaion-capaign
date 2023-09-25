@@ -20,8 +20,7 @@ const Cards = ({card}) => {
         </figure>
         <div className="card-body">
           <h2 style={{backgroundColor:`${categoryColor}`,color:`${textColor}`}} className="w-fit rounded-md px-2">{category_name}</h2>
-          <p style={{color:`${textColor}`}} className="font-bold">{title} </p>
-          
+          <p style={{color:`${textColor}`}} className="font-bold">{title} </p>        
         </div>
       </div>
     </div>

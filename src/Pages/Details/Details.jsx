@@ -40,7 +40,9 @@ const Details = () => {
 
   return (
     <div>
-      <div style={{ backgroundImage: `url(${image})`,backgroundSize:`cover`,backgroundRepeat:`no-repeat`,backgroundPosition:`center` }} className="mt-5 w-11/12 mx-auto h-[500px] bg-slate-300 rounded-md border border-base-300">
+      <div style={{ backgroundImage: `url(${image})`,backgroundSize:`cover`,
+      objectFit:`cover`,
+      backgroundRepeat:`no-repeat`,backgroundPosition:`center` }} className="mt-5 w-11/12 mx-auto h-[500px] bg-slate-300 rounded-md border border-base-300">
 
         <button onClick={handleAddDonation} style={{backgroundColor:`${textColor}`}} className="btn border-0 text-white mt-[430px] ml-12">Donate ${price}</button>
       </div>

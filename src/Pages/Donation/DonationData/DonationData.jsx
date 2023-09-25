@@ -1,23 +1,32 @@
-const DonationData = ({caard}) => {
-    console.log(caard);
-    const {category_name,title} = caard
+import { Link } from "react-router-dom";
+
+/* eslint-disable react/prop-types */
+const DonationData = ({ caard }) => {
+//   console.log(caard);
+  const {id,category_name,title,image,cardColor,categoryColor,price,textColor} = caard || {}
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div style={{backgroundColor:`${cardColor}`}} className="card card-side bg-base-100 shadow-lg">
         <figure>
-          <img
-            src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="Shoes"
+          <img className="w-80 h-full"
+            src={image}
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">{title}</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
+          <h2 style={{backgroundColor:`${categoryColor}`,color:`${textColor}`}} className="w-fit rounded-md px-2">{category_name}</h2>
+          <p className=" text-xl selection font-bold">{title}</p>
+          <p style={{color:`${textColor}`}} className="font-bold">${price}</p>
+
+          <div  className="mr-4">
+
+            <Link to={`/details/${id}`}>
+            <button style={{backgroundColor:`${textColor}`}} className="btn text-white">Visit now</button>
+            </Link>
+
+            </div>
         </div>
       </div>
+      
     </div>
   );
 };

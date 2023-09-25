@@ -5,7 +5,7 @@
       "title": "Health is wealth, so take care of it",
       "price": 19.99,
       "description": "A healthy snack that's perfect on the go.",
-      "image":"https://i.ibb.co/crTkxY6/Rectangle-4284.png",
+      "image":"https://i.ibb.co/mtQZxZ5/Health.png",
       "cardColor": "#d9e5ff",
       "categoryColor": "#aec7ff",
       "textColor": "#0052ff"
@@ -27,7 +27,7 @@
       "title": "Clothing protects us from the elements",
       "price": 49.99,
       "description": "A stylish and comfortable pair of jeans that's perfect for any occasion.",
-      "image": "https://i.ibb.co/B2VkB0r/Rectangle-4287.png",
+      "image": "https://i.ibb.co/yQ5jg4p/Clothing.png",
       "cardColor": "#ebf6e2",
       "categoryColor": "#d4ecc2",
       "textColor": "#79c23f"
@@ -38,7 +38,7 @@
       "title": "Food is essential for survival",
       "price": 9.99,
       "description": "A delicious and nutritious meal that's ready in minutes.",
-      "image": "https://i.ibb.co/YRNStF6/Rectangle-4287-2.png",
+      "image": "https://i.ibb.co/6N3Kfj1/Food.png",
       "cardColor": "#feeae4",
       "categoryColor": "#fdd2c4",
       "textColor": "#f87147"
@@ -49,7 +49,7 @@
       "title": "Food is essential for survival",
       "price": 9.99,
       "description": " A box of organic fruits and vegetables that's delivered to your door every week.",
-      "image": "https://i.ibb.co/YRNStF6/Rectangle-4287-2.png",
+      "image": "https://i.ibb.co/6N3Kfj1/Food.png",
       "cardColor": "#feeae4",
       "categoryColor": "#fdd2c4",
       "textColor": "#f87147"
@@ -60,7 +60,7 @@
       "title": "Clothing protects us from the elements",
       "price": 49.99,
       "description": "A warm and stylish winter coat that's perfect for the cold weather.",
-      "image": "https://i.ibb.co/B2VkB0r/Rectangle-4287.png",
+      "image": "https://i.ibb.co/yQ5jg4p/Clothing.png",
       "cardColor": "#ebf6e2",
       "categoryColor": "#d4ecc2",
       "textColor": "#79c23f"
@@ -82,7 +82,7 @@
       "title": "Health is wealth, so take care of it",
       "price": 19.99,
       "description": "A fitness tracker that helps you stay on track with your fitness goals.",
-      "image": "https://i.ibb.co/crTkxY6/Rectangle-4284.png",
+      "image": "https://i.ibb.co/mtQZxZ5/Health.png",
       "cardColor": "#d9e5ff",
       "categoryColor": "#aec7ff",
       "textColor": "#0052ff"
@@ -93,7 +93,7 @@
       "title": "Health is wealth, so take care of it",
       "price": 39.99,
       "description": "A subscription to a meal delivery service that provides healthy and convenient meals right to your door.",
-      "image": "https://i.ibb.co/crTkxY6/Rectangle-4284.png",
+      "image": "https://i.ibb.co/mtQZxZ5/Health.png",
       "cardColor": "#d9e5ff",
       "categoryColor": "#aec7ff",
       "textColor": "#0052ff"
@@ -115,7 +115,7 @@
       "title": "Clothing protects us from the elements",
       "price": 129.99,
       "description": "A designer handbag that's sure to turn heads.",
-      "image": "https://i.ibb.co/B2VkB0r/Rectangle-4287.png",
+      "image": "https://i.ibb.co/yQ5jg4p/Clothing.png",
       "cardColor": "#ebf6e2",
       "categoryColor": "#d4ecc2",
       "textColor": "#79c23f"
@@ -126,7 +126,7 @@
       "title": "Food is essential for survival",
       "price": 199.99,
       "description": "A gourmet dinner for two at a Michelin-starred",
-      "image": "https://i.ibb.co/YRNStF6/Rectangle-4287-2.png",
+      "image": "https://i.ibb.co/6N3Kfj1/Food.png",
       "cardColor": "#feeae4",
       "categoryColor": "#fdd2c4",
       "textColor": "#f87147"

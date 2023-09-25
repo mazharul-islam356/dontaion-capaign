@@ -1,32 +1,37 @@
 import { useEffect, useState } from "react";
 import DonationData from "./DonationData/DonationData";
 
-
 const Donation = () => {
-    const [cards,setCard] = useState([])
-     
-    useEffect(()=>{
-        
-        const finalCard = JSON.parse(localStorage.getItem('card'))
+  const [cards, setCard] = useState([]);
+  const [isShow, setIsShow] = useState(false);
 
-        if(finalCard){
-            setCard(finalCard)
-            
-        }else{
-            console.log('no data found')
-        }
-        
+  useEffect(() => {
+    const finalCard = JSON.parse(localStorage.getItem("card"));
 
-    },[])
-    console.log(cards);
+    if (finalCard) {
+      setCard(finalCard);
+    } else {
+      console.log("no data found");
+    }
+  }, []);
+  // console.log(cards);
 
-    return (
-        <div>
-           {
-            cards.map(caard=> <DonationData key={caard.id} caard={caard}></DonationData>)
-           }
-        </div>
-    );
+  return (
+    <div>
+      <div className=" mt-4 grid grid-cols-2 gap-4">
+        {isShow
+          ? cards.map((caard) => (
+              <DonationData key={caard.id} caard={caard}></DonationData>
+            ))
+          : cards
+              .slice(0, 4)
+              .map((caard) => (
+                <DonationData key={caard.id} caard={caard}></DonationData>
+              ))}
+      </div>
+      <button onClick={()=>{setIsShow(!isShow)}} className="btn mt-6 ml-[640px] btn-sm bg-green-500 w-32"> {isShow ? 'See less' : 'See more'} </button>
+    </div>
+  );
 };
 
 export default Donation;
