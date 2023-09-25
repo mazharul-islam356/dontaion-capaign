@@ -24,12 +24,15 @@ const Donation = () => {
               <DonationData key={caard.id} caard={caard}></DonationData>
             ))
           : cards
-              .slice(0, 4)
+              .slice(0,4)
               .map((caard) => (
                 <DonationData key={caard.id} caard={caard}></DonationData>
               ))}
       </div>
-      <button onClick={()=>{setIsShow(!isShow)}} className="btn mt-6 ml-[640px] btn-sm bg-green-500 w-32"> {isShow ? 'See less' : 'See more'} </button>
+      
+      
+        {cards.length > 4 && <button onClick={()=>{setIsShow(!isShow)}} className="btn mt-6 ml-[640px] btn-sm bg-green-500 w-32"> {isShow ? 'See less' : 'See more'} </button>}
+      
     </div>
   );
 };
