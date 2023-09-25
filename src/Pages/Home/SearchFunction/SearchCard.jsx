@@ -1,19 +1,17 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-/* eslint-disable react/prop-types */
-const Cards = ({card}) => {
-    // console.log(card);
+const SearchCard = ({card}) => {
     const {id,category_name,title,image,cardColor,categoryColor,textColor} = card || {}
-    // console.log(color);
-    
-  return (
-  <div >
+    return (
+<div>          
+ <div>
+                
     <Link to={`/details/${id}`}>
+    <div className="grid grid-cols-4">
     <div className="mt-5">
-      <div style={{backgroundColor:`${cardColor}`}} className="grid card w-80 bg-base-100 shadow-xl">
-     
+      <div  style={{backgroundColor:`${cardColor}`}} className="grid card w-80 bg-base-100 shadow-xl">
         <figure>
-          
           <img
             src={image}
             alt="#"
@@ -25,9 +23,16 @@ const Cards = ({card}) => {
         </div>
       </div>
     </div>
+    </div>
+
   </Link>
-  </div>
-  );
+
+
+</div>
+
+
+</div>
+    );
 };
 
-export default Cards;
+export default SearchCard;
