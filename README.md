@@ -1,8 +1,5 @@
-# React + Vite
+# _3 Feture of this website_
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* In this website you can find cards of desired category through search
+* If you click on any card, you can donate from that guard's details and that page
+* You can see a chart of how many donations you have made and total donations
