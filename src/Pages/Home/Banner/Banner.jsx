@@ -8,7 +8,7 @@ const Banner = () => {
     <div>
       <div className="mt-2 h-[450px] bg-no-repeat bg-[url('https://i.ibb.co/Pt1pVn4/Rectangle-4281.png')] bg-center bg-cover mr-6">
         <div className="absolute top-[120px] left-0 right-0 -bottom-20 bg-white bg-opacity-75">
-          <h1 className="flex items-center justify-center text-white text-3xl font-bold relative top-40 text-center">
+          <h1 className="flex items-center justify-center text-black text-4xl font-bold relative top-40 text-center">
             I Grow By Helping People In Need
           </h1>
 
