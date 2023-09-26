@@ -1,35 +1,43 @@
-/* eslint-disable react/prop-types */
-import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
+import Chart from "react-google-charts";
 
 
-const data = [
-  { value: 10, label: 'Total Donation' },
-  { value: 15, label: 'My Donation' },
-];
+// export const data = [
+//   ["Task", "Hours per Day"],
+//   ["Work", 11],
+//   ["Eat", 2],
+//   ["Commute", 2],
+//   ["Watch TV", 2],
+//   ["Sleep", 7],
+// ];
 
-const size = {
-  width:1000,
-  height: 300,
+const Satistics = () => {
+
+  // console.log(cardd);
+  const cardArray = localStorage.getItem('card')
+  const card = JSON.parse(cardArray)
+  const cardLength = card.length
+ 
+
+  const data = [
+    ["Task", "Hours per Day"],
+    ["My Donation", cardLength],
+    ["Total Donation", 12],
+  ];
+
+  return (
+    <div>
+     
+    <Chart
+      chartType="PieChart"
+      data={data}
+      
+      width={"100%"}
+      height={"400px"}
+    />
+  
+      
+    </div>
+  );
 };
 
-export default function PieArcLabel({cards}) {
-    console.log(cards);
-  return (
-    <PieChart
-      series={[
-        {
-          arcLabel: (item) => `${item.value}%`,
-          arcLabelMinAngle: 45,
-          data,
-        },
-      ]}
-      sx={{
-        [`& .${pieArcLabelClasses.root}`]: {
-          fill: 'white',
-          fontWeight: 'bold',
-        },
-      }}
-      {...size}
-    />
-  );
-}
+export default Satistics;

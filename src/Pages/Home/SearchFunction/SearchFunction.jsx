@@ -1,10 +1,13 @@
 import { useLoaderData } from "react-router-dom";
 import SearchCard from "./SearchCard";
 
+
 /* eslint-disable react/prop-types */
 const SearchFunction = ({ searchValue }) => {
+  
   const cardData = useLoaderData();
-  console.log(cardData);
+ console.log(cardData);
+  
 
   return (
     <div>

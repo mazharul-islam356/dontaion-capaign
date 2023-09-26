@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import DonationData from "./DonationData/DonationData";
-import PieArcLabel from "../Satistics/Satistics";
 
 const Donation = () => {
   const [cards, setCard] = useState([]);
@@ -18,7 +17,6 @@ const Donation = () => {
 
   return (
     <div>
-      <PieArcLabel cards={cards}></PieArcLabel>
       <div className=" mt-4 grid grid-cols-2 gap-4">
         {isShow
           ? cards.map((caard) => (
