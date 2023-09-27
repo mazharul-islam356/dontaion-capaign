@@ -1,6 +1,5 @@
 import Chart from "react-google-charts";
 
-
 // export const data = [
 //   ["Task", "Hours per Day"],
 //   ["Work", 11],
@@ -11,8 +10,8 @@ import Chart from "react-google-charts";
 // ];
 
 const Satistics = () => {
-
   // console.log(cardd);
+ 
   const cardArray = localStorage.getItem('card')
   const card = JSON.parse(cardArray)
   const cardLength = card.length
@@ -26,6 +25,7 @@ const Satistics = () => {
 
   return (
     <div>
+      
      
     <Chart
       chartType="PieChart"
