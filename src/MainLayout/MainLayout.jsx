@@ -8,7 +8,7 @@ const MainLayout = () => {
     return (
         <div className='w-11/12 mx-auto py-12'>
             
-           <div className='flex items-center justify-between'>
+           <div className='flex flex-wrap text-center items-center justify-between'>
            <Logo></Logo>
            <LinkRoute></LinkRoute>
            </div>

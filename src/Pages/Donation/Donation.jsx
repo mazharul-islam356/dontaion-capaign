@@ -17,7 +17,7 @@ const Donation = () => {
 
   return (
     <div>
-      <div className=" mt-4 grid grid-cols-2 gap-4">
+      <div className=" mt-4 grid lg:grid-cols-2 gap-4">
         {isShow
           ? cards.map((caard) => (
               <DonationData key={caard.id} caard={caard}></DonationData>

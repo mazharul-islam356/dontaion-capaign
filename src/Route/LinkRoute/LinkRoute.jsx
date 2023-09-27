@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const LinkRoute = () => {
   return (
     <div>
-      <ul className="flex gap-5 text-xl font-bold px-8">
+      <ul className="flex gap-5 text-xl font-bold lg:px-8 px-14">
         <li>
 
         <NavLink

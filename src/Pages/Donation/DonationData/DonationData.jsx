@@ -8,7 +8,7 @@ const DonationData = ({ caard }) => {
   return (
     <div>
       <div style={{backgroundColor:`${cardColor}`}} className="card card-side bg-base-100 shadow-lg">
-        <figure>
+        <figure >
           <img className="w-80 h-full"
             src={image}
           />
