@@ -7,7 +7,7 @@ const DonationData = ({ caard }) => {
 //   console.log(caard);
   const {id,category_name,title,image,cardColor,categoryColor,price,textColor} = caard || {}
   return (
-    <div>
+    <div className="w-[390px] lg:w-full md:w-full">
       <div style={{backgroundColor:`${cardColor}`}} className="card card-side bg-base-100 shadow-lg">
         <figure >
           <img className="w-80 h-full"

@@ -9,15 +9,13 @@ const Donation = () => {
 
     if (finalCard) {
       setCard(finalCard);
-    } else {
-      console.log("no data found");
     }
   }, []);
   // console.log(cards);
 
   return (
     <div>
-      <div className=" mt-4 grid lg:grid-cols-2 gap-4">
+      <div className="mt-4 grid lg:grid-cols-2 gap-4">
         {isShow
           ? cards.map((caard) => (
               <DonationData key={caard.id} caard={caard}></DonationData>
@@ -30,7 +28,7 @@ const Donation = () => {
       </div>
       
       
-        {cards.length > 4 && <button onClick={()=>{setIsShow(!isShow)}} className="btn mt-6 ml-[640px] btn-sm bg-green-500 w-32"> {isShow ? 'See less' : 'See more'} </button>}
+        {cards.length > 4 && <button onClick={()=>{setIsShow(!isShow)}} className="btn mt-6 ml-[150px] md:ml-[300px] lg:ml-[640px] btn-sm bg-green-500 w-32"> {isShow ? 'See less' : 'See more'} </button>}
     </div>
   );
 };
