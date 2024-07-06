@@ -47,7 +47,7 @@ const Details = () => {
       backgroundRepeat:`no-repeat`,backgroundPosition:`center`}} className="mt-5 w-11/12 mx-auto h-[500px] bg-slate-300 absolute rounded-md border border-base-300">
 
 
-<div className="h-24 w-full absolute top-[400px] left-0 right-30 w-11/12 mx-auto bottom-0 bg-black bg-opacity-50">
+<div className="h-24  absolute top-[400px] left-0 right-30 w-11/12 mx-auto bottom-0 bg-black bg-opacity-50">
    </div>
       </div>
        

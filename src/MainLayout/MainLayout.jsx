@@ -1,18 +1,20 @@
 import { Outlet } from 'react-router-dom';
 import LinkRoute from '../Route/LinkRoute/LinkRoute';
 import Logo from '../Header/Navbar/Logo';
+import Footer from '../Pages/footer/Footer';
 
 
 
 const MainLayout = () => {
     return (
-        <div className='w-11/12 mx-auto py-12'>
+        <div className='pt-12'>
             
-           <div className='flex flex-wrap text-center items-center justify-between'>
+           <div className='flex w-11/12 mx-auto flex-wrap text-center items-center justify-between'>
            <Logo></Logo>
            <LinkRoute></LinkRoute>
-           </div>
            <Outlet></Outlet>
+           </div>
+           <Footer></Footer>      
            
         </div>
     );
