@@ -10,7 +10,7 @@ const Cards = ({card}) => {
   <div >
     <Link to={`/details/${id}`}>
     <div className="mt-5">
-      <div style={{backgroundColor:`${cardColor}`}} className="grid card w-80 bg-base-100 shadow-xl">
+      <div style={{backgroundColor:`${cardColor}`}} className="grid card gap-4 bg-base-100 shadow-xl">
      
         <figure>
           
